@@ -147,7 +147,7 @@ class MainKtTest {
         val previousTranslationsPerDay = 0
         val previousTranslationsPerMonth = 0
         val currentTransfer = 0
-        val expectedCommission = "Данная платежная система не поддерживается"
+        val expectedCommission = "Данная платежная система поддерживается"
         // act
         val actualCommission =
             payment(pay, previousTranslationsPerDay, previousTranslationsPerMonth, currentTransfer)
